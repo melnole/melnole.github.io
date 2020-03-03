@@ -1,0 +1,50 @@
+
+      body {
+        background: #f1f1f1;
+      }
+      
+      .navbar {
+        background: #ffffff;
+      }
+      
+      .mw-box{
+        background: white;
+        padding: 15px;
+      }
+      #content {
+        padding: 25px 0 40px 0;
+      }
+      
+      h2,h4 {
+        color: darkturquoise;
+      font-weight: bold;
+      
+      }
+      
+      .mw-box h2{
+      padding-bottom: 15px;
+      border-bottom: 1px solid lightgrey;
+      margin-bottom: 15px;
+      
+      }
+      
+      #branding {
+        color: white;
+        background: darkturquoise;
+        }
+      
+      /*Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+      @media (max-width: 480px) {
+        .navbar li {
+    padding: 10px;
+  }
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  #nav-select {
+    visibility: visible;
+  }}
+
+        
+      
